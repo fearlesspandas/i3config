@@ -13,5 +13,8 @@ case $1 in
 			"nvim")
 				echo "applying nvim config"&\
 					cp -R ./nvim ~/.config;;
+			"rofi")
+				echo "applying rofi config"&\
+					cp -R ./rofi ~/.config;;
 		esac
 esac
