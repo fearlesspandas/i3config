@@ -206,9 +206,9 @@ bar {
 }
 
 #Set background image
-exec_always feh --bg-fill ~/Pictures/backgrounds/roberto_matta2.jpg
+exec_always feh --bg-fill ~/git/i3config/roberto_matta2.jpg
 #Use picom for fade effect and transparency
-exec_always picom -f
+exec_always picom --backend glx -f
 
 #Color Scheme
 #set $bgcolor    #523d64
