@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #cp -r ./ ~/.config/
 case $1 in 
 	"apply")
